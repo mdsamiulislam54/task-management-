@@ -6,10 +6,10 @@ function randomColorGenerate() {
 }
 
 function blogpageNavigate() {
-  window.location.href = "/blog.html";
+  window.location.href = "../blog.html";
 }
 function homepageNavigate() {
-  window.location.href = "/index.html";
+  window.location.href = "../index.html";
 }
 
 function buttonDisabled(button) {
