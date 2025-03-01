@@ -33,21 +33,16 @@ completedBtn.forEach((element) => {
       alert("  Board updated successfully 👍");
       setTimeout(() => {
         alert("All tasks completed! 👍👍👍");
-    }, 0);
-      }
-      else{
-          alert("Board updated successfully 👍");
-      }
-  
-    
+      }, 0);
+    } else {
+      alert("Board updated successfully 👍");
+    }
   });
 });
 
-//clear history
 clearHistoryBtn.addEventListener("click", function () {
-  
   clearHistoryFunc(historyListContainer);
 });
 calenderDate(dateCalender);
-// event listeners
+
 console.log(clearHistoryBtn);

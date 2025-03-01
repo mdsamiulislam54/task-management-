@@ -1,2 +1,7 @@
 node_modules/
+package.json 
+postcss.config.js
+taiwan.config.js
+package.lock.json
+style/input.css
 !.gitignore
