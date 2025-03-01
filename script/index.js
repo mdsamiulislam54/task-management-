@@ -29,7 +29,12 @@ completedBtn.forEach((element) => {
     totalAsassigendTaskList(totalAssigend_task);
     totalTasksCompletedList(totalTasksCompleted);
 
-    
+    if (parseInt(totalAssigend_task.innerText) === 0) {
+        alert("All tasks completed!👍👍👍");
+      }else{
+          alert("Board updated successfully 👍");
+      }
+  
     
   });
 });
