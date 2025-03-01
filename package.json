@@ -1,20 +1,12 @@
 {
-  "type": "module",
-  "dependencies": {
-    "@tailwindcss/vite": "^4.0.9",
-    "tailwindcss": "^4.0.9"
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.2.0"
   },
-  "name": "y",
-  "description": "**📅 Deadline For 30 marks**: Any time after 3rd March , 2025.\r ---\r 🏆 Requirements\r ---\r Follow the given  video strictly to meet all the requirements and Challenges.",
-  "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint src/**/*.{js,ts,vue} --fix"
-  },
-  "author": "",
-
-  "license": "ISC"
+    "build": "vite build"
+  } 
 }

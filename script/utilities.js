@@ -21,7 +21,7 @@ function historyListContainerFunc(title,container){
     let list = document.createElement('li')
 
     list.innerText = `You have completed the task ${title} at ${date}`;
-    list.classList.add('bg-gray-200', 'p-2', 'rounded-md', 'list-none','mb-4')
+    list.classList.add('bg-gray-300', 'p-2', 'rounded-md', 'list-none','mb-4')
     container.appendChild(list)
 }
 function totalTasksCompletedList (element){
@@ -32,6 +32,9 @@ function totalAsassigendTaskList (element){
 }
 function clearHistoryFunc (container){
   container.innerText = '';
+
+    // container.removeChild(container.lastChild);
+
 }
 //canlender function
 function calenderDate(element){

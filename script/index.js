@@ -30,8 +30,12 @@ completedBtn.forEach((element) => {
     totalTasksCompletedList(totalTasksCompleted);
 
     if (parseInt(totalAssigend_task.innerText) === 0) {
-        alert("All tasks completed!👍👍👍");
-      }else{
+      alert("  Board updated successfully 👍");
+      setTimeout(() => {
+        alert("All tasks completed! 👍👍👍");
+    }, 0);
+      }
+      else{
           alert("Board updated successfully 👍");
       }
   
@@ -41,7 +45,7 @@ completedBtn.forEach((element) => {
 
 //clear history
 clearHistoryBtn.addEventListener("click", function () {
-  alert("Clear History");
+  
   clearHistoryFunc(historyListContainer);
 });
 calenderDate(dateCalender);
