@@ -16,7 +16,7 @@ function buttonDisabled(button) {
   button.disabled = true;
   button.classList.remove("bg-acent", "cursor-pointer");
 
-  button.classList.add("bg-gray-300", "hover:cursor-not-allowed", "opacity-70");
+  button.classList.add('disabled_color');
 }
 
 function historyListContainerFunc(title, container) {
@@ -25,7 +25,7 @@ function historyListContainerFunc(title, container) {
 
   list.innerText = `You have completed the task ${title} at ${date}`;
 
-  list.classList.add("bg-gray-300", "p-2", "rounded-md", "list-none", "mb-4");
+  list.classList.add('history_list');
 
   container.appendChild(list);
 }

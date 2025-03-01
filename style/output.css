@@ -132,7 +132,23 @@
 ::after {
   --tw-content: '';
 }
+.disabled_color{
 
+background-color: rgba(0, 0, 0, 0.272);
+cursor: not-allowed;
+}
+.disabled_color:hover{
+
+
+cursor: not-allowed;
+}
+.history_list {
+  padding: 10px;
+  background-color: hwb(218 61% 31% / 0.781);
+  list-style-type: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
 /*
 1. Use a consistent sensible line-height in all browsers.
 2. Prevent adjustments of font size after orientation changes in iOS.
